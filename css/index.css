@@ -1,0 +1,94 @@
+
+/*swiper*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*swiper end*/
+
+
+/*hero*/
+#hero{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+/*hero end*/
+
+
+
+/*partner*/
+#partner section{
+	background-image: url(../img/bg-sbrl.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+/*partner end*/
+
+
+
+/*department*/
+#department .card{
+	min-height: 300px;
+	background-size: cover;
+	border: none;
+	color: white;
+}
+
+#garment .card{
+	background-image: url(../img/garment.jpg);
+}
+#restaurent .card{
+	background-image: url(../img/restaurent.jpg);
+	background-position: center;
+}
+#petrolium .card{
+	background-image: url(../img/petrolium.jpg);
+}
+#packaging .card{
+	background-image: url(../img/packagebg.jpg);
+}
+/*department end*/
+
+
+
+/*clients*/
+#clients{
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+	background-position-y:60%;
+	background-repeat: no-repeat;
+}
+/*clients end*/
+
+
+
+
+/*testimony*/
+#testimony .card img{
+	height: 70px;
+}
+/*testimony end*/
+/*contact*/
+#contact{
+	background-image: url(../img/bg3.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*contact end*/

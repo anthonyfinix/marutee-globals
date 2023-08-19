@@ -1,0 +1,7 @@
+#aboutUs p{
+	font-size: 1.3em;
+}
+#location{
+	background-image: url(../img/about-bg-map.png);
+	background-size: cover;
+}

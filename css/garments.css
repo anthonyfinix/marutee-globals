@@ -1,0 +1,64 @@
+/*garmentHero*/
+#garmentHero{
+	background-image: url(../img/garmentbg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*featured*/
+/*swiper*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*swiper end*/
+/*collection*/
+#collection #grid1{
+  background-image: url(../img/garments/collection1.jpg);
+  border: 1em solid white;
+}
+#collection #grid2{
+  background-image: url(../img/garments/collection3.jpg);
+  border: 1em solid white;
+  background-size: cover;
+}
+#collection #grid3{
+  background-image: url(../img/garments/collection2.jpg);
+  border: 1em solid white;
+  background-size: cover;
+}
+#collection #grid4{
+  background-image: url(../img/garments/collection4.jpg);
+  border: 1em solid white;
+  background-size: cover;
+}
+#category #men{
+  background-image: url(../img/garments/men.jpg);
+  background-size: cover;
+  background-position: top;
+}
+#tshirtPrint{
+  background-image: url(../img/shirtprint.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tshirtPrint div{
+  background-color: #fff0;
+}

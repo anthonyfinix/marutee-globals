@@ -1,0 +1,17 @@
+/*hero*/
+#hero{
+	background-image: url(../img/bg-sbrl.jpg);
+	background-size: cover;
+}
+#caption{
+	border-top: 30px solid #0073b2;
+	background-color: #e8e8e8;
+}
+#caption img{
+	border: 30px solid #0073b2;
+	border-top: none;
+}
+#caption2{
+	background-image: url(../img/bg-sbrl3.jpg);
+	background-size: cover;
+}

@@ -1,0 +1,35 @@
+#hero{
+	position: relative;
+	background-image: url(../img/petrolium.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#hero .overlay{
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	animation: fadein 0.2s infinite;
+}
+#hero h1{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 2;
+}
+#petrolSideBanner > div:first-child{
+	position: relative;
+}
+#petrolSideBanner div:first-child div{
+	position: absolute;
+	bottom: 100px;
+	left: 50px;
+}
+.featureGrid{
+	width: 350px;
+}

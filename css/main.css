@@ -1,0 +1,75 @@
+/*resetter*/
+*{
+	transition: all 0.2 ease;
+}
+
+/*theme*/
+.my-primary{
+	background-color: #0073b2
+}
+.my-heading1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 4em;
+}
+.my-heading{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+.my-headingSpecial{
+	font-family: 'Open Sans', sans-serif;
+}
+.my-paragraph{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+}
+#query > div{
+	background-image: url(../img/bg-sbrl4.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #25a2dea3;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+footer .row div:nth-child(1) a{
+  padding-left: 0px;
+}

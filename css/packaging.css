@@ -1,0 +1,30 @@
+#hero{
+	background-image: url(../img/packagebg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 380px;
+}
+#packaging-products > section > figure{
+	width: 350px;
+	overflow: hidden;
+	margin: 0px
+}
+#packaging-products > section > figure> button{
+	border: 3px solid white;
+	background-color: #0000;
+	color: white;
+}
+#packaging-products > section > figure> button:hover{
+	background-color: white;
+	color: black;
+}
+#packaging-products > section > figure > img{
+	transition: all 0.2s ease;
+	width: 110%;
+}
+#packaging-products > section > figure > img:hover{
+	transform: scale(1.1);
+}
+#packaging-query > figure{
+	overflow: hidden;
+}

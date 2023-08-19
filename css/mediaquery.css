@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+    body{
+        /*background: darkred;*/
+    }
+    #brandLogo{
+        width: 100px;
+    }
+    #hero section p{
+        font-size: 3em;
+    }
+    #customerCount p{
+        text-align: center;
+        font-size: 5em;
+    }
+    #customerCount h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    #contact > div{
+        text-align: center;
+        font-size: .4em;
+    }
+    #contact > div:nth-child(2) h1{
+        font-size: 4em;
+    }
+    #navbarCollapse >  div > h3{
+        font-size: 1em;
+    }
+    #heroHeading{
+        font-size: 2em;
+    }
+    #about{
+        padding: 3px !important;
+    }
+    #about > div > img{
+        display: block;
+        margin: 10px auto;
+    }
+    #query > div > div:nth-child(2){
+        width: 100% !important;
+    }
+    #window{
+        display: none;
+    }
+    .tab-pane{
+        display: none;
+    }
+    #petrol-hero{
+        font-size: 2em;
+    }
+    #petrolbg2{
+        width: 290px;
+        margin-bottom: 10px;
+    }
+    #petrolBigCaption{
+        font-size: 2em;
+    }
+    .featureGrid{
+        margin: 0px;
+        padding: 30px 2px;
+        width: 100%;
+        font-size: .8em;
+    }
+    .featureGrid p,
+    .featureGrid h4{
+        padding: 7px;
+    }
+    #tshirtPrint{
+        background-position-x:-100px; 
+    }
+    #tshirtPrint div{
+        padding: 20px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    #partner section h1{
+        font-size: 3em;
+    }
+    footer h4{
+        padding-bottom: 5px;
+        border-bottom: 2px solid white;
+    }
+    footer p{
+        background-color: #ffffff14;
+        margin-bottom: 2px;
+        padding: 10px;
+    }
+    #category h4{
+        font-size: 1.3em;
+    }
+    .big{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    body{
+        /*background-color: red;*/
+    }
+    #hero section p{
+        font-size: 4em;
+    }
+    #customerCount p{
+        font-size: 8em;
+    }
+    #customerCount h1{
+        font-size: 3em;
+    }
+    #tshirtPrint div{
+        padding: 20px;
+        width: 50%;
+    }
+}
+@media  (min-width: 992px){
+    body{
+        /*background-color: green;*/
+    }
+    #heroHeading{
+        font-size: 5em;
+    }
+    #tshirtPrint div{
+        margin-left: auto 
+    }
+    #partner section h1{
+        font-size: 5em;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        /*background-color: yellow;*/
+    }
+    #hero section p{
+        font-size: 6em;
+    }
+}

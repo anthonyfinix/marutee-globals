@@ -1,0 +1,48 @@
+/*main{
+	background-image: url(../img/restaurent-bg.jpg);
+	background-size: contain;
+}*/
+#hero{
+	background-image: url(../img/shoes-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 380px;
+}
+#todays .card,
+#menu .card{
+	position: relative;
+	overflow: hidden;
+}
+#todays .overlay,
+#menu .overlay{
+	position: absolute;
+	background: black;
+	opacity: 0.2;
+	height: 600px;
+	width: 600px;
+	transition: all 0.2s ease;
+}
+#todays .card:hover .overlay{
+	opacity: 0.6;
+}
+#menu .card:hover .overlay{
+	opacity: 0.6;
+}
+#todays .card .card-body,
+#menu .card .card-body{
+	position: absolute;
+	width: 100%;
+	color: white;
+	top: -300px;
+	transition: all 0.5 ease-in;
+}
+#todays .card:hover .card-body{
+	top: 20px;
+}
+#menu .card:hover .card-body{
+	top: 20px;
+}
+.img-fluid{
+	width: 600px;
+	padding: 15px;
+}
